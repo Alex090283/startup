@@ -1,0 +1,35 @@
+// font-family: 'Playfair Display', serif;
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Black'), local('Muller-Black'), url('MullerBlack.woff2') format('woff2'), url('MullerBlack.woff') format('woff'), url('MullerBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Extra Bold'), local('Muller-Extra-Bold'), url('MullerExtraBold.woff2') format('woff2'), url('MullerExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Bold'), local('Muller-Bold'), url('MullerBold.woff2') format('woff2'), url('MullerBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Medium'), local('Muller-Medium'), url('MullerMedium.woff2') format('woff2'), url('MullerMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Regular'), local('Muller-Regular'), url('MullerRegular.woff2') format('woff2'), url('MullerRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,223 @@
+@media (max-width: 1800px) {
+    .programm__decor-1::before {
+        display: none;
+    }
+    .programm__decor-2::before {
+        display: none;
+    }
+    .programm__decor-2::after {
+        display: none;
+    }
+    .reservation__decor-1::before {
+        display: none;
+    }
+    .partners__decor-1::after {
+        display: none;
+    }
+}
+
+@media (max-width: 1650px) {
+    .start-project__decor-1::before {
+        display: none;
+    }
+}
+
+@media (max-width: 1500px) {
+    .header__decor-1::before {
+        display: none;
+    }
+    .header__decor-1::after {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .announcement__decor-2 {
+        display: none;
+    }
+    .announcement__decor-1::before {
+        display: none;
+    }
+    .footer__items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__item {
+        margin: 0 10px 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .price__prices-item:last-child {
+        border-right: 1px solid #e5e5e5;
+    }
+    .reservation__input {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .reservation {
+        padding-bottom: 40px;
+    }
+    .reservation__inputs {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .header__decor-2::after {
+        display: none;
+    }
+    .announcement__inner {
+        display: block;
+        padding: 100px 0;
+    }
+    .announcement__future {
+        max-width: 100%;
+    }
+    .announcement__future-text {
+        max-width: 100%;
+    }
+    .announcement__future-text-2,
+    .announcement__future-text-3 {
+        margin-top: 15px;
+    }
+    .announcement__future-text-3 {
+        margin-bottom: 15px;
+    }
+    .announcement__meeting {
+        max-width: 100%;
+    }
+    .question__decor-1 {
+        display: none;
+    }
+    .partners__items {
+        flex-wrap: wrap;
+        img {
+            margin: 0 10px 30px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .header__menu-box {
+        position: relative;
+        margin-top: 20px;
+    }
+    .header__menu {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .header-bottom__inner {
+        margin-top: 50px;
+    }
+    .start-project__inner {
+        display: block;
+        text-align: center;
+    }
+    .start-project__image {
+        margin: 0 10px;
+        img {
+            object-fit: cover;
+            // width: 100%;
+        }
+    }
+    .start-project__description {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .header-botoom__text-tagline {
+        margin-left: 0;
+    }
+    .header-botoom__text-name {
+        font-size: 66px;
+    }
+    .programm__list-list {
+        padding-right: 10px;
+    }
+    .price__mobile-app {
+        display: block;
+        text-align: center;
+    }
+    .description-list__list {
+        text-align: left;
+    }
+    .promotion__title {
+        font-size: 26px;
+    }
+    .promotion__items {
+        margin: 0 auto;
+        display: block;
+    }
+    .promotion__wrapper {
+        padding-top: 55px;
+    }
+    .promotion__title {
+        margin-bottom: 30px;
+    }
+    .promotion__item-text {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding-bottom: 20px;
+    }
+    .start-project__image {
+        margin: 0 10px;
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+    .start-project__inner {
+        padding-top: 80px;
+    }
+    .programm__list ul {
+        column-count: 1;
+    }
+    .price__prices-item {
+        max-width: 100%;
+        border-right: none;
+    }
+    .price__over-items {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .button-link__link {
+        width: 270px;
+        padding: 20px 10px;
+    }
+    .header-botoom__text-name {
+        font-size: 56px;
+    }
+    .header-botoom__text-for {
+        font-size: 50px;
+    }
+    .header-botoom__text-tagline {
+        font-size: 47px;
+    }
+    .header__tel {
+        font-size: 22px;
+    }
+    .start-project__description {
+        padding-top: 50px;
+    }
+    .footer__item-title,
+    .footer__item-phone,
+    .footer__item-operator,
+    .footer__item-mail {
+        font-size: 16px;
+    }
+    .footer__items {
+        margin: 0 20px;
+    }
+}
